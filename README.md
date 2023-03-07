@@ -8,5 +8,5 @@
 
 ## Deploying my project
 
-- [Vercel](https://vercel.com/)
+- [https://clock-app-puce](https://clock-app-puce.vercel.app/)
 
