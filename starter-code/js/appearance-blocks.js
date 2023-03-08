@@ -2,6 +2,8 @@
 const button = document.getElementById('button');
 const block1 = document.getElementById('block1');
 const block2 = document.getElementById('block2');
+const buttonText = document.getElementById("button-text");
+const buttonImage = document.getElementById("button-image");
 
 // Додавання обробника події "click" на кнопку
 button.addEventListener('click', function() {
@@ -16,3 +18,17 @@ button.addEventListener('click', function() {
         block2.classList.add('visible');
     }
 });
+
+// Додаємо обробник події click до кнопки
+button.addEventListener("click", function() {
+    // Перевіряємо поточний текст кнопки
+    if (buttonText.innerHTML === "MORE") {
+      // Якщо текст дорівнює "MORE", то змінюємо текст на "LESS" та зображення на стрілку вниз
+      buttonText.innerHTML = "LESS";
+      buttonImage.setAttribute("src", "./starter-code/assets/desktop/icon-arrow-up.svg");
+    } else {
+      // Якщо текст не дорівнює "MORE", то змінюємо текст на "MORE" та зображення на стрілку вгору
+      buttonText.innerHTML = "MORE";
+      buttonImage.setAttribute("src", "./starter-code/assets/desktop/icon-arrow-down.svg");
+    }
+  });

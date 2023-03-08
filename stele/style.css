@@ -10,7 +10,7 @@ body {
 /*==========================Content-block============================*/
 #block1 {
     height: 100vh;
-    transition: height 1s ease;
+    transition: height 1.5s ease;
 }
 
 .content-block1 {
@@ -97,7 +97,7 @@ body {
     display: none;
 
     height: 0;
-    transition: height 1s ease;
+    transition: height 1.5s ease;
 }
 
 .content-block2 {
@@ -119,7 +119,35 @@ body {
 }
 
 #button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 60px;
+    border-radius: 40px;
     margin-bottom: 24px;
+
+    cursor: pointer;
+}
+
+#button p {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: black;
+    opacity: 0.5;
+    padding-left: 10px;
+}
+
+.circle-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    background-color: #303030;
 }
 
 
@@ -134,6 +162,9 @@ body {
 
     .content {
         flex-direction: column;
+    }
+    .text-block {
+        margin-block: 80px;
     }
 
     .text-block,
