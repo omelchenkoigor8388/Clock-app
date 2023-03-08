@@ -26,7 +26,7 @@ button.addEventListener("click", function() {
       // Якщо текст дорівнює "MORE", то змінюємо текст на "LESS" та зображення на стрілку вниз
       buttonText.innerHTML = "LESS";
       buttonImage.setAttribute("src", "./starter-code/assets/desktop/icon-arrow-up.svg");
-      buttonImage.style.width = '30px'
+      buttonImage.style.width = '100%'
     } else {
       // Якщо текст не дорівнює "MORE", то змінюємо текст на "MORE" та зображення на стрілку вгору
       buttonText.innerHTML = "MORE";

@@ -322,6 +322,10 @@ body {
         height: 32px;
     }
 
+    #button-image {
+        width: auto;
+    }
+
 
 
     .content2 {
