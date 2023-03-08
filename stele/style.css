@@ -218,4 +218,8 @@ body {
         font-size: 15px;
         font-weight: 400;
     }
+
+    #button {
+        margin-bottom: 0px;
+    }
 }
